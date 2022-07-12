@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance canculator</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__header">
+            Who is the first?
+          </h1>
+    
+        <div class="hero__block">
+            <div class="hero__prompt">
+            <p class="hero__paragraph">
+                Distance:
+            </p>
+    
+            <form class="hero__form" action="#" method="GET" id="forms">
+                <input class="hero__input" id="distance_number" type="number" name="distance" id="way" placeholder="Please enter in kilometres" autocomplete="off" required>
+                <button class="hero__btn" id="btn_click">Convert</button>
+                <button class="hero__btn" id="btn_click" type="reset" value="Reset">Reset</button>
+            </form>
+            </div>
+    
+            <ul class="hero__unordered">
+              <li class="hero__list">
+                <img class="hero__image" src="./Images/man.png" alt="this image" width="150" height="150">
+                <p class="hero__text">Man</p>
+                <p class="hero__time">
+                <strong class="hero__hour" id="man">0</strong>
+                </p>
+              </li>
+    
+              <li class="hero__list">
+                <img class="hero__image" src="./Images/bike.png" alt="this image" width="150" height="150">
+                <p class="hero__text">Bike</p>
+                <p class="hero__time">
+                <strong class="hero__hour" id="bike">0</strong>
+                </p>
+              </li>
+    
+              <li class="hero__list">
+                <img class="hero__image" src="./Images/car.png" alt="this image" width="150" height="150">
+                <p class="hero__text">Car</p>
+                <p class="hero__time">
+                <strong class="hero__hour" id="car">0</strong>
+                </p>
+              </li>
+    
+              <li class="hero__list">
+                <img class="hero__image" src="./Images/airplane.png" alt="this image" width="150" height="150">
+                <p class="hero__text">Airplane</p>
+                <p class="hero__time">
+                <strong class="hero__hour" id="airplane">0</strong>
+                </p>
+              </li>
+            </ul>
+    
+        </div>
+    
+        </div>
+    </section>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
